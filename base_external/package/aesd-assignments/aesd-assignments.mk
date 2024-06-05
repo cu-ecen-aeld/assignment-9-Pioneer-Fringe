@@ -6,13 +6,16 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '3dd0400b609f846b7a4863eb932e588499d959bc'
+AESD_ASSIGNMENTS_VERSION = '6c802a61a9a5f6e0a5fcfe2580706ad7116ed555'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-Pioneer-Fringe.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+
+#AESD_ASSIGNMENTS_SITE = '/home/zding/assignment-1-Pioneer-Fringe'
+#AESD_ASSIGNMENTS_SITE_METHOD = local
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
