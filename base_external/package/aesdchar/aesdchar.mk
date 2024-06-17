@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESDCHAR_VERSION = '6c802a61a9a5f6e0a5fcfe2580706ad7116ed555'
+AESDCHAR_VERSION = 'a5d70c4d4423c27fa08ddb177a0023a397bf997a'
 AESDCHAR_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-Pioneer-Fringe.git'
 AESDCHAR_SITE_METHOD = git
 AESDCHAR_GIT_SUBMODULES = YES
